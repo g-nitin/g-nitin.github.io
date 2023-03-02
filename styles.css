@@ -3,6 +3,19 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.assignment {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    /* background: #F3F7FF; */
+    background: #FBF3FF;
+}
+
+.assignment img {
+    width: 200px;
+    padding: 10px;
+}
+
 h1 {
     color: #403F3D;
     text-align: center;
