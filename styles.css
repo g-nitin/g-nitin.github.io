@@ -1,5 +1,5 @@
 body {
-    background: #fffbf3;
+    background: #4BA3C3;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -9,14 +9,34 @@ body {
     margin: 10px;
     /* background: #F3F7FF; */
     background: #FBF3FF;
+    border-radius: 15px;
 }
 
 .assignment img {
     width: 200px;
-    padding: 10px;
+    margin: 10px;
+    border: 3px solid #175676;
+    border-radius: 5px;
+}
+
+.assignment img:hover {
+    border: 3px solid #F2727F;
 }
 
 h1 {
-    color: #403F3D;
+    color: #441151;
     text-align: center;
+}
+
+h1:hover {
+    color: #1F271B;
+}
+
+a {
+    text-decoration: none;
+    color: #BA324F;
+}
+
+a:hover {
+    color: #F2727F
 }
